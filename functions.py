@@ -17,3 +17,9 @@ if(op=="+"):
 elif(op=="-"):
     s=lambda a,b:a-b
     print(s(20,10))
+elif(op=="*"):
+    s=lambda a,b:a*b
+    print(s(20,10))
+elif(op=="/"):
+    s=lambda a,b:a/b
+    print(s(20,10))

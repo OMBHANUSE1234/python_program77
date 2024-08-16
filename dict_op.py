@@ -4,3 +4,6 @@ print(dict1)
 
 dict1[73]="Pruthvi"
 print(dict1)
+
+print(dict1.keys())
+print(dict1.values())
