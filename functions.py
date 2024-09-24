@@ -11,15 +11,15 @@ def add(a,b):
 add(40,20)
 
 op=input("Enter op:")
-if(op=="+"):
+if op== "+":
     s=lambda a,b:a+b
     print(s(10,20))
-elif(op=="-"):
+elif op== "-":
     s=lambda a,b:a-b
     print(s(20,10))
-elif(op=="*"):
+elif op== "*":
     s=lambda a,b:a*b
     print(s(20,10))
-elif(op=="/"):
+elif op== "/":
     s=lambda a,b:a/b
     print(s(20,10))
